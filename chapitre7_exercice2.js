@@ -14,4 +14,11 @@ nombres.forEach(nombre => {
   somme += nombre;
 } */
 
+// Solution alternative avec une boucle for
+/* 
+for(let i = 0; i<nombres.length; i++){
+    somme= nombres[i] + somme;
+  }
+ */
+
 console.log(somme);
